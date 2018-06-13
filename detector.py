@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 import csv
+
+
 def storage(nme):
     myfile = open("admininfo.csv", "a+")
     newdata = nme + ","
